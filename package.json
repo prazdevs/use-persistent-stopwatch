@@ -1,8 +1,9 @@
 {
   "name": "use-persistent-stopwatch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Persistent stopwatch Vue composable",
   "author": "Sacha 'PraZ' Bouillez (https://praz.dev)",
+  "repository": "github:prazdevs/use-persistent-stopwatch",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
