@@ -5,14 +5,17 @@
   <i>Artwork by <a href="https://www.artstation.com/david_ko">David Ko</a></i>
 </p>
 
-<h1 align="center">Welcome to the UsePersistentStopwatch repo 👋</h1>
+<h1 align="center">use-persistent-stopwatch</h1>
+<p align="center">A Vue composable bringing storage persisted stopwatches to your apps compatible with Vue 2 & 3.</p>
+
 
 <p align="center">
   <img src="https://img.shields.io/github/package-json/v/prazdevs/use-persistent-stopwatch" />
   <img src="https://img.shields.io/github/license/prazdevs/use-persistent-stopwatch" />
-  <img src="https://img.shields.io/codeclimate/maintainability/prazdevs/user-persistent-stopwatch?logo=code-climate" />
+  <img src="https://img.shields.io/codeclimate/maintainability/prazdevs/use-persistent-stopwatch?logo=code-climate" />
   <img src="https://img.shields.io/npm/types/typescript" />
 </p>
+
 
 ## 🤝 Contributing
 
