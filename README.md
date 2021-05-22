@@ -103,5 +103,5 @@ Feel free to contact me:
 
 ## 📝 Licence
 
-Copyright © 2020 [Sacha Bouillez](https://github.com/prazdevs).<br />
+Copyright © 2021 [Sacha Bouillez](https://github.com/prazdevs).<br />
 This project is under [MIT](https://github.com/prazdevs/use-persistent-stopwatch/blob/main/LICENCE) license.
