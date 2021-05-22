@@ -55,7 +55,7 @@ export default function useStopwatch(key: string, options: StopwatchOptions = {}
    * Pauses the stopwatch.
    */
   function pause() {
-    if (!running) return
+    if (pauseTimestamp.value) return
     pauseTimestamp.value = now.value
   }
 
@@ -73,7 +73,7 @@ export default function useStopwatch(key: string, options: StopwatchOptions = {}
   function reset() {
     startTimestamp.value = now.value
     offset.value = 0
-    if (!running.value) pauseTimestamp.value = now.value
+    if (pauseTimestamp.value) pauseTimestamp.value = now.value
   }
 
   return {
