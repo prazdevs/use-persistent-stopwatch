@@ -22,12 +22,12 @@
 - Persistence through sessions and tabs using storage.
 - Pausable/resumable.
 - Fully typed with TypeScript.
-- Compatible with Vue 2 and 3.
+- Compatible with Vue 2 and 3 (thanks to [vue-demi](https://github.com/vueuse/vue-demi)).
 
 ## 🧱 Prerequisites
 
-- For Vue 3 users, you don't need anything else than Vue.
-- For Vue 2 users, you need the [Composition API plugin](https://github.com/vuejs/composition-api) installed.
+- Vue 2: you don't need anything else than Vue.
+- Vue 3: you need the [Composition API plugin](https://github.com/vuejs/composition-api) installed.
 
 ## ⚙️ Installing
 
