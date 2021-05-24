@@ -7,6 +7,12 @@ export interface StopwatchOptions {
    * @default false
    */
   immediate?: boolean
+
+  /**
+   * Stopwatch update interval if given
+   * @default 'requestAnimationFrame'
+   */
+  interval?: 'requestAnimationFrame' | number
 }
 
 export interface StopwatchReturn {
@@ -38,9 +44,9 @@ export interface StopwatchReturn {
  * @param options
  */
 export default function useStopwatch(key: string, options: StopwatchOptions = {}): StopwatchReturn {
-  const { immediate = false } = options
+  const { immediate = false, interval = 'requestAnimationFrame' } = options
 
-  const { timestamp: now } = useTimestamp()
+  const { timestamp: now } = useTimestamp({ interval })
 
   const startTimestamp = useStorage(`stopwatch-timestamp-${key}`, now.value)
   const pauseTimestamp = useStorage(`stopwatch-pause-${key}`, immediate ? 0 : now.value)
