@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import usePersistentStopwatch from 'use-persistent-stopwatch'
 
-const { elapsed, running, resume, pause, reset } = usePersistentStopwatch('cute-watch-3')
+const { elapsed, running, resume, pause, reset } = usePersistentStopwatch('cute-watch-3', {immediate: true})
 </script>
 
 <template>
