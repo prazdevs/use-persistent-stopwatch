@@ -13,7 +13,8 @@
   <img src="https://img.shields.io/github/package-json/v/prazdevs/use-persistent-stopwatch" />
   <img src="https://img.shields.io/codeclimate/maintainability/prazdevs/use-persistent-stopwatch?logo=code-climate" />
   <img src="https://codecov.io/gh/prazdevs/use-persistent-stopwatch/branch/main/graph/badge.svg?token=CXP3WKDZ73"/>
-  <img src="https://img.shields.io/github/license/prazdevs/use-persistent-stopwatch" />   
+  <img src="https://img.shields.io/bundlephobia/minzip/use-persistent-stopwatch" />
+  <img src="https://img.shields.io/github/license/prazdevs/use-persistent-stopwatch" />
 </p>
 
 ## ✨ Features
