@@ -1,5 +1,5 @@
-import usePersistentStopwatch from '../src/index'
-import { useSetup } from './test-utils'
+import usePersistentStopwatch from './index'
+import { useSetup } from '../test/utils'
 
 describe('usePersistentStopwatch', () => {
   beforeEach(() => {
@@ -8,7 +8,7 @@ describe('usePersistentStopwatch', () => {
   
   it('should not start by default', () => {
     //* Arrange
-    let instance = useSetup(() => {
+    const instance = useSetup(() => {
       const { elapsed, running } = usePersistentStopwatch('test')
       return { elapsed, running }
     })
@@ -20,9 +20,9 @@ describe('usePersistentStopwatch', () => {
 
   it('should resume', () => {
     //* Arrange
-    let instance = useSetup(() => {
-      const { elapsed, running, resume } = usePersistentStopwatch('test')
-      return { elapsed, running, resume }
+    const instance = useSetup(() => {
+      const { running, resume } = usePersistentStopwatch('test')
+      return { running, resume }
     })
 
     //* Act
@@ -34,9 +34,9 @@ describe('usePersistentStopwatch', () => {
 
   it('should pause', () => {
     //* Arrange
-    let instance = useSetup(() => {
-      const { elapsed, running, pause } = usePersistentStopwatch('test', { immediate: true })
-      return { elapsed, running, pause }
+    const instance = useSetup(() => {
+      const { running, pause } = usePersistentStopwatch('test', { immediate: true })
+      return { running, pause }
     })
 
     //* Act
