@@ -1,5 +1,5 @@
-import usePersistentStopwatch from './index'
-import { useSetup } from '../test/utils'
+import usePersistentStopwatch from '../src/index'
+import { useSetup } from './utils'
 
 describe('usePersistentStopwatch', () => {
   beforeEach(() => {

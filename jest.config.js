@@ -1,8 +1,8 @@
 module.exports = {
   transform: { '^.+\\.(ts)$': 'ts-jest', },
   // testMatch: ['**/*.spec.ts'],
-  setupFiles: ['<rootDir>/test/setup.js'],
+  setupFiles: ['<rootDir>/tests/setup.js'],
   testEnvironment: 'jsdom',
   collectCoverage: true,
-  collectCoverageFrom: ['<rootDir>/src/index.ts']
+  collectCoverageFrom: ['<rootDir>/tests/index.ts']
 }
