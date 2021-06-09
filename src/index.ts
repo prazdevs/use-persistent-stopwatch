@@ -46,7 +46,7 @@ export interface StopwatchReturn {
 export default function useStopwatch(key: string, options: StopwatchOptions = {}): StopwatchReturn {
   const { immediate = false, interval = 'requestAnimationFrame' } = options
 
-  const { timestamp: now } = useTimestamp({ interval })
+  const { timestamp: now } = useTimestamp({ interval, controls: true })
 
   const startTimestamp = useStorage(`stopwatch-timestamp-${key}`, now.value)
   const pauseTimestamp = useStorage(`stopwatch-pause-${key}`, immediate ? 0 : now.value)
