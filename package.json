@@ -15,7 +15,8 @@
   },
   "size-limit": [
     {
-      "path": "dist/index.esm.js"
+      "path": "dist/index.esm.js",
+      "limit": "5 kB"
     }
   ],
   "main": "dist/index.umd.js",
