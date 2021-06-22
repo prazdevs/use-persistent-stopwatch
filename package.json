@@ -26,11 +26,11 @@
     "dist"
   ],
   "dependencies": {
-    "@vueuse/core": "^5.0.2",
+    "@vueuse/core": "^5.0.3",
     "vue-demi": "^0.9.1"
   },
   "peerDependencies": {
-    "@vue/composition-api": "^1.0.0-rc.11",
+    "@vue/composition-api": "^1.0.0-rc.12",
     "vue": "^2.0.0 || >=3.0.0-rc.0"
   },
   "peerDependenciesMeta": {
@@ -43,16 +43,15 @@
     "@types/jest": "^26.0.23",
     "@vue/composition-api": "^1.0.0-rc.9",
     "codecov": "^3.8.2",
-    "jest": "^27.0.4",
+    "jest": "^27.0.5",
     "rimraf": "^3.0.2",
-    "rollup": "^2.51.1",
+    "rollup": "^2.52.2",
     "rollup-plugin-dts": "^3.0.2",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.30.0",
     "size-limit": "^4.12.0",
     "ts-jest": "^27.0.3",
-    "tslib": "^2.2.0",
-    "typescript": "^4.3.2",
+    "typescript": "^4.3.4",
     "vue": "^3.0.5",
     "vue2": "npm:vue@^2.6.14"
   }
