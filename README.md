@@ -10,11 +10,11 @@
 
 
 <p align="center">
-  <img src="https://img.shields.io/github/package-json/v/prazdevs/use-persistent-stopwatch" />
-  <img src="https://img.shields.io/codeclimate/maintainability/prazdevs/use-persistent-stopwatch?logo=code-climate" />
-  <img src="https://codecov.io/gh/prazdevs/use-persistent-stopwatch/branch/main/graph/badge.svg?token=CXP3WKDZ73"/>
-  <img src="https://img.shields.io/bundlephobia/minzip/use-persistent-stopwatch" />
-  <img src="https://img.shields.io/github/license/prazdevs/use-persistent-stopwatch" />
+  <img src="https://img.shields.io/github/package-json/v/prazdevs/use-persistent-stopwatch?style=flat" />
+  <img src="https://img.shields.io/codeclimate/maintainability/prazdevs/use-persistent-stopwatch?logo=code-climate&style=flat" />
+  <img src="https://codecov.io/gh/prazdevs/use-persistent-stopwatch/branch/main/graph/badge.svg?token=CXP3WKDZ73&style=flat"/>
+  <img src="https://img.shields.io/bundlephobia/minzip/use-persistent-stopwatch?style=flat" />
+  <img src="https://img.shields.io/github/license/prazdevs/use-persistent-stopwatch?style=flat" />
 </p>
 
 ## ✨ Features
@@ -100,7 +100,7 @@ Want to add some feature? PRs are welcome!
 Feel free to contact me:
 
 - <a href="https://twitter.com/prazdevs"><img src="https://img.shields.io/twitter/follow/prazdevs?style=social" /><a/>
-- <img src="https://img.shields.io/badge/Discord-PraZ%234184-darkgrey?labelColor=7289DA&logo=discord&logoColor=white" />
+- <img src="https://img.shields.io/badge/Discord-PraZ%234184-darkgrey?labelColor=7289DA&logo=discord&logoColor=white&style=flat" />
 
 ## 📝 Licence
 
