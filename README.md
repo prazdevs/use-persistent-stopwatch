@@ -27,8 +27,8 @@
 
 ## 🧱 Prerequisites
 
-- Vue 2: you need the [Composition API plugin](https://github.com/vuejs/composition-api) installed.
-- Vue 3: you don't need anything else than Vue.
+- Vue 2: you need the [Composition API plugin](https://github.com/vuejs/composition-api) installed (>=1.1.0).
+- Vue 3: you don't need anything else than Vue (>=3.2.0).
 
 ## ⚙️ Installing
 
