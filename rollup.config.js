@@ -18,12 +18,14 @@ const configs = [
         name: pkg.name,
         format: "umd",
         globals,
+        exports: 'auto',
       },
       {
         file: `dist/index.umd.min.js`,
         format: "umd",
         name: pkg.name,
         globals,
+        exports: 'auto',
         plugins: [
           terser({
             format: {
@@ -35,10 +37,12 @@ const configs = [
       {
         file: "dist/index.cjs.js",
         format: "cjs",
+        exports: 'auto',
       },
       {
         file: "dist/index.esm.js",
         format: "es",
+        exports: 'auto',
       },
     ],
     plugins: [
