@@ -24,6 +24,7 @@
 - Pausable/resumable.
 - Fully typed with TypeScript.
 - Compatible with Vue 2 and 3 (thanks to [vue-demi](https://github.com/vueuse/vue-demi)).
+- Super small (<2kB).
 
 ## 🧱 Prerequisites
 
