@@ -69,7 +69,7 @@ export default function useStopwatch(key: string, options: StopwatchOptions = {}
    * Resumes the stopwatch.
    */
   function resume() {
-    offset.value += currentPause.value
+    offset.value = offset.value + currentPause.value
     pauseTimestamp.value = 0
   }
 
