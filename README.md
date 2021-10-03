@@ -71,16 +71,6 @@ export default defineComponent({
 </template>
 ```
 
-It gets even shorter with `<script setup>` (Vue 3 only):
-
-```vue
-<script setup lang="ts">
-import usePersistentStopwatch from 'use-persistent-stopwatch'
-
-const { elapsed, pause, resume, reset } = usePersistentStopwatch('cute-watch')
-</script>
-```
-
 ### Multiple stopwatches
 
 You can create multiple independent stopwatches by using different keys:
