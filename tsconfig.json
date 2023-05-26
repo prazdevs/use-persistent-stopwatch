@@ -11,6 +11,6 @@
     "jsx": "preserve",
     "esModuleInterop": true
   },
-  "include": ["src/index.ts"],
+  "include": ["src/index.ts", "tests/*.ts"],
   "exclude": ["node_modules"]
 }

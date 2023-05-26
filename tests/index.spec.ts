@@ -1,3 +1,4 @@
+import { describe, beforeEach, it, expect } from 'vitest'
 import usePersistentStopwatch from '../src/index'
 import { useSetup } from './utils'
 
@@ -34,7 +35,7 @@ describe('usePersistentStopwatch', () => {
 
   it('should pause', () => {
     //* Arrange
-    const instance = useSetup(() => {
+    const instance = useSetup(() => {
       const { running, pause } = usePersistentStopwatch('test', { immediate: true })
       return { running, pause }
     })
